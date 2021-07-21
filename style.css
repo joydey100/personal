@@ -255,11 +255,15 @@ nav ul li:hover a {
   -o-transform: translate(-50%, -50%);
 }
 
-.banner-content .profile-img img {
+.banner-content .profile-img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 10px solid #e25822;
+  margin: 0 auto;
+  background: #010D1B url(./img/joydey.png);
+  background-position: center top;
+  background-size: 105%;
+  background-repeat: no-repeat;
 }
 
 .banner-content .profile-content {
